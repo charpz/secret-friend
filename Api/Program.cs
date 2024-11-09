@@ -1,11 +1,8 @@
-using Api.Weather;
+using Api;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddServices();
 
 var app = builder.Build();
-
-app.UseHttpsRedirection();
-
-app.MapWeatherForecastEndpoint();
-
+app.Configure();
 app.Run();
