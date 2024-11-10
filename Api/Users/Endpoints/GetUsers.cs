@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using Migrations.Database;
+using SecretFriend.Migrations.Database;
 
-namespace Api.Users.Endpoints;
+namespace SecretFriend.Api.Users.Endpoints;
 
 internal static class GetUsers
 {

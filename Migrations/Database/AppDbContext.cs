@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Migrations.Models;
+using SecretFriend.Migrations.Models;
 
-namespace Migrations.Database;
+namespace SecretFriend.Migrations.Database;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {

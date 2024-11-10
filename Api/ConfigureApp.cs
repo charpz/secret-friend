@@ -1,6 +1,6 @@
 ﻿using Scalar.AspNetCore;
 
-namespace Api;
+namespace SecretFriend.Api;
 
 internal static class ConfigureApp
 {

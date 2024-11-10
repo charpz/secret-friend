@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Migrations.Models;
+namespace SecretFriend.Migrations.Models;
 
 public class User
 {

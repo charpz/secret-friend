@@ -1,6 +1,6 @@
-﻿using Api.Users.Endpoints;
+﻿using SecretFriend.Api.Users.Endpoints;
 
-namespace Api;
+namespace SecretFriend.Api;
 
 internal static class Endpoints
 {

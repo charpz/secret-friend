@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
-using Migrations.Database;
-using Migrations.Models;
+using SecretFriend.Migrations.Database;
+using SecretFriend.Migrations.Models;
 
-namespace Api.Users.Endpoints;
+namespace SecretFriend.Api.Users.Endpoints;
 
 internal static class CreateUser
 {

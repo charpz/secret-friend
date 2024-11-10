@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Migrations.Database;
+using SecretFriend.Migrations.Database;
 
-namespace Api;
+namespace SecretFriend.Api;
 
 internal static class ConfigureServices
 {

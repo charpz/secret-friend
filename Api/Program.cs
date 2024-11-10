@@ -1,4 +1,4 @@
-using Api;
+using SecretFriend.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.AddServices();
